@@ -5,14 +5,14 @@ import Card9 from "../assets/photos/card9.png";
 const CartItems = () => {
   return (
     <section className="container mb-[52px]">
-      <h2 className="font-raleway mb-14 text-[30px] font-bold">
+      <h2 className="mb-14 font-raleway text-[30px] font-bold">
         Your cart items
       </h2>
       <table className="w-full">
         <thead className="bg-[#5A5AC9]">
           <tr>
             <th className="py-1 text-white">Product Image</th>
-            <th className="text-white">Product Name</th>
+            <th className="px-4 py-1 text-white">Product Name</th>
             <th className="py-1 text-white">Stock Status</th>
             <th className="py-1 text-white">Qty</th>
             <th className="py-1 text-white">Price</th>
@@ -23,7 +23,7 @@ const CartItems = () => {
         <tbody>
           <tr className="border-b border-[#DEE2E6]">
             <td className="flex justify-center py-2">
-              <img src={Card9} alt="img" className="" />
+              <img src={Card9} alt="img" className="w-[150px]" />
             </td>
             <td className="text-center">Water and Wind Resistant cream</td>
             <td className="px-4 text-center">
@@ -67,14 +67,14 @@ const CartItems = () => {
               </button>
             </td>
             <td>
-              <button className="font-raleway ml-[15%] border border-[#212529] bg-[#111111] px-4 py-[15px] font-medium uppercase text-white">
+              <button className="ml-[15%] border border-[#212529] bg-[#111111] px-4 py-[15px] font-raleway font-medium uppercase text-white">
                 Add to cart
               </button>
             </td>
           </tr>
           <tr className="border-b border-[#DEE2E6]">
             <td className="flex justify-center py-2">
-              <img src={Card5} alt="img" className="" />
+              <img src={Card5} alt="img" className="w-[150px]" />
             </td>
             <td className="text-center">Originals Kaval nail polish</td>
             <td className="px-4 text-center">
@@ -118,14 +118,14 @@ const CartItems = () => {
               </button>
             </td>
             <td>
-              <button className="font-raleway ml-[15%] border border-[#212529] bg-[#111111] px-4 py-[15px] font-medium uppercase text-white">
+              <button className="ml-[15%] border border-[#212529] bg-[#111111] px-4 py-[15px] font-raleway font-medium uppercase text-white">
                 Add to cart
               </button>
             </td>
           </tr>
           <tr className="border-b border-[#DEE2E6]">
             <td className="flex justify-center py-2">
-              <img src={Card6} alt="img" className="" />
+              <img src={Card6} alt="img" className="w-[150px]" />
             </td>
             <td className="text-center">New Balance Arish makeup box</td>
             <td className="px-4 text-center">
@@ -169,7 +169,7 @@ const CartItems = () => {
               </button>
             </td>
             <td>
-              <button className="font-raleway ml-[15%] border border-[#212529] bg-[#111111] px-4 py-[15px] font-medium uppercase text-white">
+              <button className="ml-[15%] border border-[#212529] bg-[#111111] px-4 py-[15px] font-raleway font-medium uppercase text-white">
                 Add to cart
               </button>
             </td>
