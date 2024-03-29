@@ -222,51 +222,55 @@ const Header = () => {
                   1
                 </span>
               </button>
-              <button className="relative">
-                <svg
-                  width="25"
-                  height="27"
-                  viewBox="0 0 25 27"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12.5 22.8773L10.9896 21.4746C5.62504 16.5119 2.08337 13.2389 2.08337 9.22201C2.08337 5.94898 4.60421 3.37732 7.81254 3.37732C9.62504 3.37732 11.3646 4.23808 12.5 5.5983C13.6355 4.23808 15.375 3.37732 17.1875 3.37732C20.3959 3.37732 22.9167 5.94898 22.9167 9.22201C22.9167 13.2389 19.375 16.5119 14.0105 21.4852L12.5 22.8773Z"
-                    stroke="black"
-                  />
-                </svg>
-                <span className="absolute right-[-10px] top-1 h-5 w-5 rounded-[50%] bg-[#5A5AC9] pt-[2px] align-middle text-[11px] text-[white]">
-                  12
-                </span>
-              </button>
-              <button className="relative">
-                <svg
-                  width="27"
-                  height="30"
-                  viewBox="0 0 27 30"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="5.625"
-                    y="9.08569"
-                    width="15.75"
-                    height="14.5"
-                    stroke="black"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M9 9.08565C9 6.41628 11.0147 4.25232 13.5 4.25232C15.9853 4.25232 18 6.41628 18 9.08565"
-                    stroke="black"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                <span className="absolute right-[-10px] top-1 h-5 w-5 rounded-[50%] bg-[#5A5AC9] pt-[2px] align-middle text-[11px] text-[white]">
-                  9
-                </span>
-              </button>
+              <NavLink to="/wishlist">
+                <button className="relative">
+                  <svg
+                    width="25"
+                    height="27"
+                    viewBox="0 0 25 27"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 22.8773L10.9896 21.4746C5.62504 16.5119 2.08337 13.2389 2.08337 9.22201C2.08337 5.94898 4.60421 3.37732 7.81254 3.37732C9.62504 3.37732 11.3646 4.23808 12.5 5.5983C13.6355 4.23808 15.375 3.37732 17.1875 3.37732C20.3959 3.37732 22.9167 5.94898 22.9167 9.22201C22.9167 13.2389 19.375 16.5119 14.0105 21.4852L12.5 22.8773Z"
+                      stroke="black"
+                    />
+                  </svg>
+                  <span className="absolute right-[-10px] top-1 h-5 w-5 rounded-[50%] bg-[#5A5AC9] pt-[2px] align-middle text-[11px] text-[white]">
+                    12
+                  </span>
+                </button>
+              </NavLink>
+              <NavLink to="/cart">
+                <button className="relative">
+                  <svg
+                    width="27"
+                    height="30"
+                    viewBox="0 0 27 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="5.625"
+                      y="9.08569"
+                      width="15.75"
+                      height="14.5"
+                      stroke="black"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M9 9.08565C9 6.41628 11.0147 4.25232 13.5 4.25232C15.9853 4.25232 18 6.41628 18 9.08565"
+                      stroke="black"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="absolute right-[-10px] top-1 h-5 w-5 rounded-[50%] bg-[#5A5AC9] pt-[2px] align-middle text-[11px] text-[white]">
+                    9
+                  </span>
+                </button>
+              </NavLink>
             </div>
           </nav>
         </div>

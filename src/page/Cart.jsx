@@ -1,9 +1,9 @@
-import React from "react";
+import Head from "../components/Head";
 
 const Cart = () => {
   return (
     <div>
-      <p>3</p>
+      <Head />
     </div>
   );
 };

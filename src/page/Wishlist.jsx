@@ -1,9 +1,9 @@
-import React from "react";
+import Head from "../components/Head";
 
 const Wishlist = () => {
   return (
     <div>
-      <p>2</p>
+      <Head />
     </div>
   );
 };
