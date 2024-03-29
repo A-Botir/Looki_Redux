@@ -143,7 +143,7 @@ const Header = () => {
       <div className="container">
         <div className="flex justify-between px-3">
           <NavLink to="/">
-            <img src={Logo} alt="logo icon" />
+            <img src={Logo} alt="logo icon" className="pt-3" />
           </NavLink>
           <nav className="flex w-[75%] items-center justify-between">
             <ul className="flex items-center gap-9">
