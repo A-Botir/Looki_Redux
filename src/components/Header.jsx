@@ -6,6 +6,7 @@ import Logo from "../assets/icons/Logo.svg";
 
 const Header = () => {
   const location = useLocation();
+
   return (
     <header className="bg-[#FBFBFB]">
       <div className="bg-[#111111]">
@@ -149,7 +150,9 @@ const Header = () => {
             <ul className="flex items-center gap-9">
               <li
                 className={`px-2 py-5 font-semibold hover:text-[#5A5AC9] ${
-                  location.pathname === "/" ? "text-[#5A5AC9]" : ""
+                  location.pathname === "/" || "/cart" || "/wishlist"
+                    ? "text-[#5A5AC9]"
+                    : ""
                 }`}
               >
                 <NavLink to="/">Home</NavLink>
